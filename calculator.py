@@ -20,6 +20,9 @@ def prod(a,b):
 def quo(a,b):
   print("The quotient is",a/b)
 
+def rem(a,b):
+  print("The remainder is",a%b)
+
 #User Input
 a=float(input("Enter the first number: "))
 b=float(input("Enter the second number: "))
@@ -37,6 +40,9 @@ elif(op=="*"):
 
 elif(op=="/"):
   quo(a,b)
+
+elif(op=="%"):
+  rem(a,b)
 
 else:
   print("Invalid Operator")
